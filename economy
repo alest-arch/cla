@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacto comercial y técnico de Norwood Acoustics. Respondemos en menos de 24 horas a estudios de arquitectura, hoteleros y desarrolladores." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Contacto — Norwood Acoustics</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav is-scrolled" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-mark">N</span>
+        <span class="nav__logo-text">NORWOOD<small>ACOUSTICS</small></span>
+      </a>
+      <nav class="nav__links">
+        <a href="index.html#solucion">Soluciones</a>
+        <a href="index.html#productos">Productos</a>
+        <a href="certificaciones.html">Certificaciones</a>
+        <a href="proceso.html">Proceso</a>
+        <a href="contacto.html" class="nav__cta">Contacto</a>
+      </nav>
+      <button class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="index.html">Inicio</a><span>/</span>
+        <span aria-current="page">Contacto</span>
+      </nav>
+      <p class="eyebrow">Contacto</p>
+      <h1 class="page-hero__title">Hablemos de tu proyecto.</h1>
+      <p class="lead">
+        Atendemos consultas de estudios de arquitectura, desarrolladores
+        hoteleros, contract y especificadores. Cada solicitud se responde con
+        una propuesta inicial, muestra física gratuita y un presupuesto
+        cerrado por m² instalado, sin compromiso, en menos de 24 horas.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2 grid-2--contact">
+      <div class="reveal">
+        <p class="eyebrow">Canales de contacto</p>
+        <h2 class="section__title">Tres formas de hablar con nosotros.</h2>
+        <ul class="contact-info">
+          <li><strong>Comercial</strong><a href="mailto:projects@norwoodacoustics.com">projects@norwoodacoustics.com</a></li>
+          <li><strong>Soporte técnico</strong><a href="mailto:tech@norwoodacoustics.com">tech@norwoodacoustics.com</a></li>
+          <li><strong>Muestras</strong><a href="mailto:samples@norwoodacoustics.com">samples@norwoodacoustics.com</a></li>
+          <li><strong>Teléfono</strong><a href="tel:+34900000000">+34 900 000 000</a></li>
+          <li><strong>Horario</strong><span>Lun – Vie · 9:00 – 18:00 CET</span></li>
+          <li><strong>HQ</strong><span>Barcelona · Berlín · Estocolmo</span></li>
+        </ul>
+        <p class="lead" style="margin-top:24px">
+          Para licitaciones públicas o proyectos con requisitos LEED / BREEAM /
+          WELL, podemos preparar el dossier técnico completo (EPDs, certificado
+          <strong>FSC<sup>®</sup> C041397</strong>, ensayos ISO 354, fichas
+          técnicas) en menos de 48 h.
+        </p>
+      </div>
+
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="form__row">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" name="name" required maxlength="80" autocomplete="name" />
+          <small class="form__error" data-for="name"></small>
+        </div>
+        <div class="form__row">
+          <label for="company">Empresa</label>
+          <input type="text" id="company" name="company" maxlength="100" autocomplete="organization" />
+        </div>
+        <div class="form__row">
+          <label for="email">Email corporativo</label>
+          <input type="email" id="email" name="email" required maxlength="120" autocomplete="email" />
+          <small class="form__error" data-for="email"></small>
+        </div>
+        <div class="form__row">
+          <label for="message">Cuéntanos tu proyecto</label>
+          <textarea id="message" name="message" rows="6" required maxlength="1000" placeholder="Sector, m² aproximados, plazos y línea de interés (Linear / Heritage / Aegis)."></textarea>
+          <small class="form__error" data-for="message"></small>
+        </div>
+        <div class="form__hp" aria-hidden="true">
+          <label>No rellenar</label>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" />
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+        <p class="form__success" id="formSuccess" hidden>Mensaje enviado. Te contactaremos en menos de 24 horas.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-mark">N</span>
+        <span class="nav__logo-text">NORWOOD<small>ACOUSTICS</small></span>
+        <p>Paneles acústicos sostenibles para arquitectura premium.</p>
+      </div>
+      <div class="footer__about">
+        <h4>Acerca de nosotros</h4>
+        <p>Norwood Acoustics fabrica sobre tableros y chapa de madera de <strong>Finsa</strong>, referente europeo en madera técnica sostenible.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Empresa</h4><a href="index.html#solucion">Soluciones</a><a href="index.html#productos">Productos</a><a href="certificaciones.html">Certificaciones</a><a href="proceso.html">Proceso</a></div>
+        <div><h4>Recursos</h4><a href="casos.html">Casos por sector</a><a href="contacto.html">Contacto</a><a href="solicitar-muestra.html">Solicitar muestra</a></div>
+        <div><h4>Legal</h4><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <span>© <span id="year"></span> Norwood Acoustics. Todos los derechos reservados.</span>
+      <span>Designed in Europe · Made with FSC® wood</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
